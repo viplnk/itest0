@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inam Services | Makkah Security & Fire Solutions</title>
+    <title>Inam Services | Saudi Arabia Visa Processing</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,7 @@
 
         /* Header Styles */
         header {
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('https://images.unsplash.com/photo-1548919973-5cef591cdbc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background: linear-gradient(rgba(10, 30, 70, 0.85), rgba(10, 30, 70, 0.9)), url('https://images.unsplash.com/photo-1548919973-5cef591cdbc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
             background-size: cover;
             background-position: center;
             color: white;
@@ -62,7 +62,7 @@
         }
 
         .logo span {
-            color: #d4af37;
+            color: #0a6e3a;
         }
 
         .nav-links {
@@ -82,7 +82,7 @@
         }
 
         .nav-links a:hover {
-            color: #d4af37;
+            color: #0a6e3a;
         }
 
         .hero-content {
@@ -106,8 +106,8 @@
 
         .btn {
             display: inline-block;
-            background: #d4af37;
-            color: #000;
+            background: #0a6e3a;
+            color: white;
             padding: 12px 30px;
             border-radius: 5px;
             text-decoration: none;
@@ -118,12 +118,12 @@
         }
 
         .btn:hover {
-            background: #b8941f;
+            background: #08552d;
             transform: translateY(-3px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
-        /* Services Section */
+        /* Visa Types Section */
         .section-title {
             text-align: center;
             margin-bottom: 50px;
@@ -143,7 +143,7 @@
             position: absolute;
             width: 70px;
             height: 3px;
-            background: #d4af37;
+            background: #0a6e3a;
             bottom: 0;
             left: 50%;
             transform: translateX(-50%);
@@ -153,7 +153,7 @@
             padding: 80px 0;
         }
 
-        .services {
+        .visa-services {
             background-color: #fff;
         }
 
@@ -169,6 +169,7 @@
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 4px solid #0a6e3a;
         }
 
         .service-card:hover {
@@ -193,30 +194,55 @@
             color: #222;
         }
 
-        /* About Section */
-        .about {
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1604866830893-c13cafa434d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+        .service-content ul {
+            list-style-position: inside;
+            margin-top: 10px;
+        }
+
+        .service-content li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        /* Process Section */
+        .process {
+            background: linear-gradient(rgba(10, 30, 70, 0.9), rgba(10, 30, 70, 0.95)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
             background-size: cover;
             background-attachment: fixed;
             color: white;
             text-align: center;
         }
 
-        .about-content {
-            max-width: 800px;
-            margin: 0 auto;
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
         }
 
-        .about-content h2 {
-            font-family: 'Roboto Slab', serif;
-            font-size: 2.5rem;
+        .step {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: #0a6e3a;
+            border-radius: 50%;
+            line-height: 50px;
+            font-weight: 700;
+            font-size: 1.5rem;
             margin-bottom: 20px;
         }
 
-        .about-content p {
-            font-size: 1.1rem;
-            margin-bottom: 30px;
-            opacity: 0.9;
+        .step h3 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
         }
 
         /* Contact Section */
@@ -250,8 +276,8 @@
         }
 
         .contact-item i {
-            background: #d4af37;
-            color: #000;
+            background: #0a6e3a;
+            color: white;
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -286,6 +312,31 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        /* Stats Section */
+        .stats {
+            background: #0a1e46;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: #0a6e3a;
+            margin-bottom: 10px;
+        }
+
+        .stat-item p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
         /* Footer */
         footer {
             background: #222;
@@ -308,7 +359,7 @@
         }
 
         .footer-logo span {
-            color: #d4af37;
+            color: #0a6e3a;
         }
 
         .footer-about p {
@@ -329,7 +380,7 @@
             position: absolute;
             width: 40px;
             height: 2px;
-            background: #d4af37;
+            background: #0a6e3a;
             bottom: 0;
             left: 0;
         }
@@ -349,7 +400,28 @@
         }
 
         .footer-links a:hover, .footer-services a:hover {
-            color: #d4af37;
+            color: #0a6e3a;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #333;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 10px;
+            transition: background 0.3s;
+        }
+
+        .social-icons a:hover {
+            background: #0a6e3a;
         }
 
         .copyright {
@@ -412,61 +484,122 @@
             <div class="logo">Inam<span>Services</span></div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Visa Services</a></li>
+                <li><a href="#process">Process</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         
         <div class="container">
             <div class="hero-content">
-                <h1>Protecting the Sacred Spaces of Makkah</h1>
-                <p>Inam Services provides state-of-the-art fire safety and security surveillance solutions for the Grand Mosque in Makkah and surrounding holy sites. Trusted by authorities for over 15 years.</p>
-                <a href="#contact" class="btn">Get a Free Consultation</a>
+                <h1>Saudi Arabia Visa Services</h1>
+                <p>Inam Services provides comprehensive visa processing solutions for Saudi Arabia, including Umrah, Hajj, tourist, business, and work visas. Trusted by thousands for our efficient and reliable service.</p>
+                <a href="#contact" class="btn">Apply for Visa Now</a>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <h3>15,000+</h3>
+                    <p>Visas Processed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>98%</h3>
+                    <p>Success Rate</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24-72</h3>
+                    <p>Hours Processing Time</p>
+                </div>
+                <div class="stat-item">
+                    <h3>12+</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visa Services Section -->
+    <section id="services" class="visa-services">
         <div class="container">
             <div class="section-title">
-                <h2>Our Services</h2>
+                <h2>Our Visa Services</h2>
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <img src="https://images.unsplash.com/photo-1548919973-5cef591cdbc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Makkah Grand Mosque" class="service-img">
+                    <img src="https://images.unsplash.com/photo-1548919973-5cef591cdbc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Umrah Visa" class="service-img">
                     <div class="service-content">
-                        <h3>Grand Mosque Security</h3>
-                        <p>High-resolution security cameras strategically placed throughout the Haram area to ensure the safety of millions of worshippers. Our systems are designed to handle massive crowds with precision.</p>
+                        <h3>Umrah Visa Services</h3>
+                        <p>Complete processing for Umrah pilgrims with fast approval and guidance throughout the journey.</p>
+                        <ul>
+                            <li>Express processing (24-48 hours)</li>
+                            <li>Medical insurance included</li>
+                            <li>Travel arrangement assistance</li>
+                            <li>24/7 support during pilgrimage</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="service-card">
-                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fire Safety Systems" class="service-img">
+                    <img src="https://images.unsplash.com/photo-1561731216-c53c5a6a65c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Business Visa" class="service-img">
                     <div class="service-content">
-                        <h3>Fire Safety Solutions</h3>
-                        <p>Advanced fire detection and suppression systems specifically designed for the unique architecture of the Grand Mosque. Our solutions meet the highest international safety standards.</p>
+                        <h3>Business & Work Visas</h3>
+                        <p>Professional visa processing for business meetings, conferences, and employment in Saudi Arabia.</p>
+                        <ul>
+                            <li>Employment visa processing</li>
+                            <li>Business visit visas</li>
+                            <li>Investor visa assistance</li>
+                            <li>Company sponsorship support</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="service-card">
-                    <img src="https://images.unsplash.com/photo-1561731216-c53c5a6a65c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Security Cameras" class="service-img">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tourist Visa" class="service-img">
                     <div class="service-content">
-                        <h3>Surveillance Systems</h3>
-                        <p>24/7 monitoring with AI-powered analytics to detect potential security threats. Our camera systems provide comprehensive coverage of all areas within and around the holy sites.</p>
+                        <h3>Tourist & Family Visas</h3>
+                        <p>Leisure and family visit visas to explore the rich culture and heritage of Saudi Arabia.</p>
+                        <ul>
+                            <li>Tourist e-visa assistance</li>
+                            <li>Family visit visa processing</li>
+                            <li>Hotel booking assistance</li>
+                            <li>Travel itinerary planning</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Process Section -->
+    <section id="process" class="process">
         <div class="container">
-            <div class="about-content">
-                <h2>About Inam Services</h2>
-                <p>Founded in 2008, Inam Services has been at the forefront of providing specialized security and fire safety solutions for the holy sites in Makkah. Our team of experts combines cutting-edge technology with deep understanding of the unique requirements of these sacred spaces.</p>
-                <p>We are honored to serve the Grand Mosque and surrounding areas, ensuring the safety and security of millions of pilgrims who visit each year. Our commitment to excellence and innovation has made us the trusted partner for authorities managing the holy sites.</p>
-                <a href="#contact" class="btn">Contact Us Today</a>
+            <div class="section-title">
+                <h2 style="color: white;">Our Visa Process</h2>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Document Collection</h3>
+                    <p>We guide you through all required documents including passport, photos, and supporting paperwork.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Application Submission</h3>
+                    <p>Our experts prepare and submit your application to the appropriate Saudi authorities.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Processing & Tracking</h3>
+                    <p>We monitor your application status and keep you updated throughout the process.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Visa Delivery</h3>
+                    <p>Once approved, we deliver your visa electronically or physically as per your preference.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -483,57 +616,64 @@
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h4>Our Address</h4>
-                            <p>King Abdulaziz Road, Al Zahir District,<br>Makkah 24242, Saudi Arabia</p>
+                            <h4>Our Office</h4>
+                            <p>Al Qasr Al Ahmadi, King Fahd Road,<br>Near Ministry of Foreign Affairs,<br>Riyadh 11564, Saudi Arabia</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
-                            <h4>Contact Number</h4>
-                            <p>+966 12 345 6789</p>
+                            <h4>Contact Numbers</h4>
+                            <p>+966 11 234 5678 (Office)<br>+966 55 123 4567 (WhatsApp)</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
-                            <h4>Email Address</h4>
-                            <p>info@inamservices.com</p>
+                            <h4>Email Addresses</h4>
+                            <p>info@inamservices.com<br>visa@inamservices.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-clock"></i>
                         <div>
                             <h4>Working Hours</h4>
-                            <p>Sunday - Thursday: 8:00 AM - 6:00 PM</p>
+                            <p>Sunday - Thursday: 8:00 AM - 8:00 PM<br>Friday: 2:00 PM - 8:00 PM<br>Saturday: 10:00 AM - 6:00 PM</p>
                         </div>
                     </div>
                 </div>
                 <div class="contact-form">
-                    <h3>Send a Message</h3>
+                    <h3>Visa Inquiry Form</h3>
                     <form id="contactForm">
                         <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Full Name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address</label>
+                            <label for="email">Email Address *</label>
                             <input type="email" id="email" class="form-control" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <label for="service">Service Interested In</label>
-                            <select id="service" class="form-control">
-                                <option value="security">Security Systems</option>
-                                <option value="fire">Fire Safety</option>
-                                <option value="both">Both Services</option>
-                                <option value="other">Other Inquiry</option>
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="visa-type">Visa Type *</label>
+                            <select id="visa-type" class="form-control" required>
+                                <option value="">Select Visa Type</option>
+                                <option value="umrah">Umrah Visa</option>
+                                <option value="tourist">Tourist Visa</option>
+                                <option value="business">Business Visa</option>
+                                <option value="work">Work Visa</option>
+                                <option value="family">Family Visit Visa</option>
+                                <option value="other">Other</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" class="form-control" rows="5" placeholder="How can we help you?" required></textarea>
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" class="form-control" rows="4" placeholder="Tell us about your requirements..."></textarea>
                         </div>
-                        <button type="submit" class="btn">Send Message</button>
+                        <button type="submit" class="btn">Submit Visa Inquiry</button>
                     </form>
                 </div>
             </div>
@@ -546,35 +686,38 @@
             <div class="footer-content">
                 <div class="footer-about">
                     <div class="footer-logo">Inam<span>Services</span></div>
-                    <p>Providing specialized security and fire safety solutions for the holy sites in Makkah since 2008. Trusted by authorities to protect sacred spaces.</p>
+                    <p>Your trusted partner for Saudi Arabia visa processing since 2010. We specialize in efficient, reliable visa services for Umrah, tourism, business, and employment.</p>
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#services">Visa Services</a></li>
+                        <li><a href="#process">Our Process</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#contact">Visa Inquiry</a></li>
                     </ul>
                 </div>
                 <div class="footer-services">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><a href="#services">Security Systems</a></li>
-                        <li><a href="#services">Fire Safety Solutions</a></li>
-                        <li><a href="#services">Surveillance Monitoring</a></li>
-                        <li><a href="#services">Emergency Response</a></li>
+                        <li><a href="#services">Umrah Visa Processing</a></li>
+                        <li><a href="#services">Tourist Visa Assistance</a></li>
+                        <li><a href="#services">Business Visas</a></li>
+                        <li><a href="#services">Work & Employment Visas</a></li>
+                        <li><a href="#services">Family Visit Visas</a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 Inam Services. All Rights Reserved.</p>
+                <p>&copy; 2023 Inam Services - Saudi Arabia Visa Processing. All Rights Reserved. | Ministry of Foreign Affairs Approved Agent</p>
             </div>
         </div>
     </footer>
@@ -605,12 +748,23 @@
             // Get form values
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
-            const service = document.getElementById('service').value;
+            const phone = document.getElementById('phone').value;
+            const visaType = document.getElementById('visa-type').value;
             const message = document.getElementById('message').value;
+            
+            // Visa type mapping
+            const visaTypes = {
+                'umrah': 'Umrah Visa',
+                'tourist': 'Tourist Visa',
+                'business': 'Business Visa',
+                'work': 'Work Visa',
+                'family': 'Family Visit Visa',
+                'other': 'Other Visa Type'
+            };
             
             // In a real application, you would send this data to a server
             // For this demo, we'll just show an alert
-            alert(`Thank you ${name}! Your message has been received. We will contact you at ${email} regarding ${service} services soon.`);
+            alert(`Thank you ${name}! Your ${visaTypes[visaType] || 'visa'} inquiry has been received. Our visa specialist will contact you at ${phone} or ${email} within 2 hours.`);
             
             // Reset the form
             document.getElementById('contactForm').reset();
@@ -620,13 +774,51 @@
         window.addEventListener('scroll', function() {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 100) {
-                navbar.style.background = 'rgba(0, 0, 0, 0.95)';
+                navbar.style.background = 'rgba(10, 30, 70, 0.95)';
                 navbar.style.padding = '10px 0';
+                navbar.style.boxShadow = '0 5px 15px rgba(0, 0, 0, 0.1)';
             } else {
                 navbar.style.background = 'transparent';
                 navbar.style.padding = '15px 0';
+                navbar.style.boxShadow = 'none';
             }
         });
+        
+        // Counter animation for stats
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stat-item h3');
+            const speed = 200;
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target') || 
+                    parseInt(counter.innerText.replace('+', '').replace(',', ''));
+                const count = +counter.innerText.replace('+', '').replace(',', '') || 0;
+                const increment = target / speed;
+                
+                if(count < target) {
+                    counter.innerText = Math.ceil(count + increment).toLocaleString() + 
+                        (counter.innerText.includes('+') ? '+' : '');
+                    setTimeout(animateCounters, 1);
+                } else {
+                    counter.innerText = target.toLocaleString() + 
+                        (counter.innerText.includes('+') ? '+' : '');
+                }
+            });
+        }
+        
+        // Trigger counter animation when stats section is in view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting) {
+                    animateCounters();
+                }
+            });
+        }, { threshold: 0.5 });
+        
+        const statsSection = document.querySelector('.stats');
+        if(statsSection) {
+            observer.observe(statsSection);
+        }
     </script>
 </body>
 </html>
